@@ -147,6 +147,7 @@ h3 {}
 
 .contenidoExperencia,.contenidoCursos,.contenidoFormacion,.contenidoReferencias,.contenidoInformatica {
   display: inline;  
+  padding: 1px;
 }
 
 

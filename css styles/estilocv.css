@@ -5,8 +5,16 @@
   padding: 15px;
 }
 
-#nombreytitulo {}
+#nombre {}
 
+#titulo {
+
+
+}
+
+.fonndoceleste{
+  background-color: #BCD6ED;
+}
 
 
 #fotopersona {
@@ -66,8 +74,14 @@
 
 
 .contenidoinformacionpersonal {
+text-align: left;
+padding: 5px;
 
+}
 
+.contenidodatosdecontacto {
+  text-align: left;
+  padding: 5px; 
 
 }
 
@@ -86,7 +100,7 @@
 }
 
 
-#subtituloinformacionpersonal1,#subtituloinformacionpersonal2,#subtitulodatosdecontacto {
+#subtituloinformacionpersonal1,#subtituloinformacionpersonal2,#subtitulodatosdecontacto,#subtituloperfilpersonal {
 
 font-weight: bolder;
 
@@ -184,6 +198,7 @@ h3 {}
 
 .contenidoExperencia,.contenidoCursos,.contenidoFormacion,.contenidoReferencias,.contenidoInformatica {
   display: inline;  
+  
 }
 
 
@@ -193,3 +208,22 @@ h3 {}
 
 
 @media (max-width:500px) { .container { width: 80% !important;} }
+
+
+.sobremi {
+  text-align: left;
+}
+
+.subtitulopuesto{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.subtituloinstitucion{
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.conjuntoizquierda,.conjuntoderecha{
+padding-left: 1px;
+}
