@@ -211,7 +211,11 @@ h3 {}
 }
 
 
-@media (max-width:500px) { .container { width: 80% !important;} }
+@media (max-width:500px) { .container { width: 80% !important;} 
+.titulo {
+    flex-direction: column; 
+}
+}
 
 
 .sobremi {
