@@ -9,16 +9,12 @@ var informatica = false;
 
 
 const todoDescomprimido = () => {
-
     cursos = false;
     formacion = false;
     experiencia = false;
     referencias = false;
     informatica = false;
 }
-
-
-
 
 const todoComprimido = () => {
 
@@ -30,15 +26,12 @@ const todoComprimido = () => {
 
 }
 
-
-
 const botonCursos = () => {
 
     botonUnificado('.contenidoCursos', cursos, 'botonCursos');
     cursos = !cursos;
 
 }
-
 
 const botonFormacion = () => {
 
@@ -47,15 +40,12 @@ const botonFormacion = () => {
 
 }
 
-
 const botonExperiencia = () => {
 
     botonUnificado('.contenidoExperencia', experiencia, 'botonExperiencia');
     experiencia = !experiencia;
 
 }
-
-
 
 const botonReferencias = () => {
 
@@ -105,7 +95,7 @@ const botonUnificado = (clasecss, claselogica, idboton) => {
             element.classList.add('hidden');
 
         });
-        document.getElementById(idboton).innerHTML = "Desplegar"
+        document.getElementById(idboton).innerHTML = "Ver detalle"
 
     } else {
 
@@ -114,7 +104,9 @@ const botonUnificado = (clasecss, claselogica, idboton) => {
 
         });
 
-        document.getElementById(idboton).innerHTML = "Comprimir";
+        document.getElementById(idboton).innerHTML = "Ocultar detalle";
 
     }
 }
+
+

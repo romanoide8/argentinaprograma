@@ -3,6 +3,7 @@
   border-color: black;
   font-size:12px;
   padding: 15px;
+  background-color: #fafafa;
 }
 
 #nombre {}
@@ -42,17 +43,20 @@
 }
 
 .titulo {
-  grid-area: 1/3/ span 1/ span 4;
   background-color: white;
   border-bottom: black double 7px;
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
-  flex-direction: column;
-
-
+  flex-direction: row;
+  display: inline-flex;
+  width: 100%;
 }
-
+.buttonContainer{
+  display: flex;
+  align-items: center;
+  width: 455px;
+  justify-content: space-between;
+}
 
 
 .informacionpersonal {
